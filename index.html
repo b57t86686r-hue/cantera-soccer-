@@ -1,5 +1,4 @@
-
-        function hireScout() {
+function hireScout() {
             if (game.budget < 15000) return alert("Faltan fondos (15,000 €).");
             if (game.scouts.length >= 3) return alert("Máximo 3 ojeadores.");
             const reg = document.getElementById('scout-region').value;
